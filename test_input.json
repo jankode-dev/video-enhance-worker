@@ -1,0 +1,11 @@
+{
+  "input": {
+    "workflow": "See workflow/scail2_stage2_enhance_api.json — paste full object here for curl tests",
+    "images": [
+      {
+        "name": "input.mp4",
+        "image": "BASE64_OF_INPUT_VIDEO_HERE"
+      }
+    ]
+  }
+}

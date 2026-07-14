@@ -1,0 +1,18 @@
+comfyui:
+  base_path: /runpod-volume/runpod-slim/ComfyUI/
+  is_default: true
+  checkpoints: models/checkpoints
+  diffusion_models: models/diffusion_models
+  text_encoders: models/text_encoders
+  clip: models/text_encoders
+  vae: models/vae
+  loras: models/loras
+  model_patches: models/model_patches
+  annotator: models/annotator
+  upscale_models: models/upscale_models
+  ultralytics: models/ultralytics
+  ultralytics_bbox: models/ultralytics/bbox
+  ultralytics_segm: models/ultralytics/segm
+  sams: models/sams
+  # SeedVR2 pack trazi kljuc "seedvr2" (case-insensitive) — DiT + VAE modeli na volume-u
+  seedvr2: models/SEEDVR2
